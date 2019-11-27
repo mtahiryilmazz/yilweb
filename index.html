@@ -556,40 +556,35 @@
          <div class="row">
 
             <div class="eight columns">
+<!-- form -->
+<form action="https://formspree.io/xbjllgkd" method="post" id="contactForm" name="contactForm"> <!-- your@email.com yerine kendi mail adresimizi yazıyoruz. -->
+    <div class="input-block">
+        <label for="contactName">
+            <strong>Ad Soyad</strong><span class="required">*</span></label>
+        <input type="text" name="contactName" id="contactName" required>
+    </div>
+    <div class="input-block">
+        <label for="contactEmail">
+            <strong>E-Posta Adresi</strong><span class="required">*</span></label>
+        <input type="email" name="contactEmail" id="contactEmail" required>
+    </div>            
+    <div class="input-block">
+        <label for="contactSubject">
+            <strong>Mesaj Konusu</strong><span class="required">*</span></label>
+        <input type="text" name="contactSubject" id="contactSubject" required>
+    </div>
+    <div class="textarea-block">
+        <label for="contactMessage">
+            <strong>Mesajınız</strong><span class="required">*</span></label>
+        <textarea name="contactMessage" id="contactMessage" required></textarea>
+    </div>
+    <input type="hidden" name="_next" value="https://mtahiryilmazz.github.io/yilmazweb/"> <!-- Form formspree.io adresine gönderildikten sonra tekrar sitenize dönüş yapılarak sitenizdeki thanks.html dosyasının görüntülenmesini sağlıyor. -->
+    <div id="gonder" class="gonder">
+    <input type="submit" value="GÖNDER"></div>
+</form>
 
-               <!-- form -->
-               <form action="" method="post" id="contactForm" name="contactForm">
-					<fieldset>
+<!-- Form End -->
 
-                  <div>
-						   <label for="contactName">Name <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="contactName" name="contactName">
-                  </div>
-
-                  <div>
-						   <label for="contactEmail">Email <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
-                  </div>
-
-                  <div>
-						   <label for="contactSubject">Subject</label>
-						   <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
-                  </div>
-
-                  <div>
-                     <label for="contactMessage">Message <span class="required">*</span></label>
-                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
-                  </div>
-
-                  <div>
-                     <button class="submit">Submit</button>
-                     <span id="image-loader">
-                        <img alt="" src="images/loader.gif">
-                     </span>
-                  </div>
-
-					</fieldset>
-				   </form> <!-- Form End -->
 
                <!-- contact-warning -->
                <div id="message-warning"> Error boy</div>
