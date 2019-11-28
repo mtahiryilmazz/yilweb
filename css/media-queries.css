@@ -47,28 +47,28 @@
    }
 
 
-   /* About Section
+   /* hakkinda Section
    ------------------------------------------------------------------- */
-   #about .profile-pic {
+   #hakkinda .profile-pic {
       width: 114px;
       height: 114px;
       margin-left: 12px;
    }
-   #about .contact-details { width: 50%; }
-   #about .download { width: 50%; }
+   #hakkinda .iletisim-details { width: 50%; }
+   #hakkinda .download { width: 50%; }
 
-   /* Resume Section
+   /* yaptiklarimiz Section
    ------------------------------------------------------------------- */
-   #resume h1 { font: 16px/24px 'opensans-bold', sans-serif; }
-   #resume .main-col { padding-right: 5%; }   
+   #yaptiklarimiz h1 { font: 16px/24px 'opensans-bold', sans-serif; }
+   #yaptiklarimiz .main-col { padding-right: 5%; }   
 
-   /* Testimonials Section
+   /* referanslar Section
    ------------------------------------------------------------------- */
-   #testimonials .header-col h1:before {
+   #referanslar .header-col h1:before {
       font-size: 66px;
       line-height: 66px;
    }
-   #testimonials blockquote p {
+   #referanslar blockquote p {
       font-size: 22px;
       line-height: 46px;      
    }
@@ -80,14 +80,14 @@
       line-height: 66px;
    }
 
-   /* Contact Section
+   /* iletisim Section
    ------------------------------------------------------------------- */
-   #contact .section-head { margin-bottom: 30px; }
-   #contact .header-col h1:before {
+   #iletisim .section-head { margin-bottom: 30px; }
+   #iletisim .header-col h1:before {
       font-size: 66px;
       line-height: 66px;
    }
-   #contact .section-head p.lead { font: 17px/33px opensans-light, sans-serif; }
+   #iletisim .section-head p.lead { font: 17px/33px opensans-light, sans-serif; }
 
 
 }
@@ -213,27 +213,27 @@
    header .scrolldown { display: none; }
 
 
-   /* About Section
+   /* hakkinda Section
    -------------------------------------------------------------------- */
-   #about .profile-pic { display: none; }
-   #about .download .button {
+   #hakkinda .profile-pic { display: none; }
+   #hakkinda .download .button {
       width: 100%;
       text-align: center;
       padding: 15px 20px;
    }
-   #about .main-col { padding-right: 30px; }
+   #hakkinda .main-col { padding-right: 30px; }
 
 
-   /* Resume Section
+   /* yaptiklarimiz Section
    --------------------------------------------------------------------- */
-   #resume .header-col {
+   #yaptiklarimiz .header-col {
       padding-top: 0;
       margin-bottom: 48px;
       text-align: center;
    }
-   #resume h1 { letter-spacing: 3px; }
-   #resume .main-col { padding-right: 30px; }
-   #resume h3, #resume .info { text-align: center; }
+   #yaptiklarimiz h1 { letter-spacing: 3px; }
+   #yaptiklarimiz .main-col { padding-right: 30px; }
+   #yaptiklarimiz h3, #yaptiklarimiz .info { text-align: center; }
       
    .bars { width: 100%; }
 
@@ -252,25 +252,25 @@
    #call-to-action p { font-size: 15px; }
 
 
-   /* Portfolio Section
+   /* calismalar Section
    /* ----------------------------------------------------------------- */
-   #portfolio-wrapper .columns { margin-bottom: 40px; }
+   #calismalar-wrapper .columns { margin-bottom: 40px; }
    .popup-modal {	max-width: 85%; }
 
 
-   /* Testimonials Section
+   /* referanslar Section
    ----------------------------------------------------------------------- */
-   #testimonials .text-container { text-align: center; }
-   #testimonials h1 {
+   #referanslar .text-container { text-align: center; }
+   #referanslar h1 {
       font: 16px/24px 'opensans-bold', sans-serif;
       text-align: center;
       margin-bottom: 30px;
       text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
    }
-   #testimonials h1 span { display: block; }
-   #testimonials .header-col h1:before { content: none; }
-   #testimonials blockquote { padding-bottom: 24px; }
-   #testimonials blockquote p {
+   #referanslar h1 span { display: block; }
+   #referanslar .header-col h1:before { content: none; }
+   #referanslar blockquote { padding-bottom: 24px; }
+   #referanslar blockquote p {
       font-size: 20px;
       line-height: 42px;      
    }
@@ -282,33 +282,33 @@
    }
 
 
-   /* contact Section
+   /* iletisim Section
    ----------------------------------------------------------------------- */
-   #contact { padding-bottom: 66px; }
-   #contact .section-head { margin-bottom: 12px; }
-   #contact .section-head h1 {
+   #iletisim { padding-bottom: 66px; }
+   #iletisim .section-head { margin-bottom: 12px; }
+   #iletisim .section-head h1 {
       font: 16px/24px 'opensans-bold', sans-serif;            
       text-align: center;   
       margin-bottom: 30px;
       text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
    }  
-   #contact h1 span { display: block; }
-   #contact .header-col { padding-top: 0; }
-   #contact .header-col h1:before { content: none;	}
-   #contact .section-head p.lead { text-align: center;}
+   #iletisim h1 span { display: block; }
+   #iletisim .header-col { padding-top: 0; }
+   #iletisim .header-col h1:before { content: none;	}
+   #iletisim .section-head p.lead { text-align: center;}
 
    /* form */
-   #contact label {
+   #iletisim label {
       float: none;
       width: 100%;
    }
-   #contact input,
-   #contact textarea,
-   #contact select {
+   #iletisim input,
+   #iletisim textarea,
+   #iletisim select {
      	margin-bottom: 6px;    	
       width: 100%;
    }
-   #contact button.submit { margin: 30px 0 24px 0; }
+   #iletisim button.submit { margin: 30px 0 24px 0; }
    #message-warning, #message-success {
       width: 100%;
       margin-left: 0;

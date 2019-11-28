@@ -30,23 +30,23 @@
  *    ## header logo
  *    ## main navigation
  *    ## mobile menu toggle 
- *  # home
- *    ## home content
- *    ## home video link
- *    ## home buttons
- *    ## home scroll
- *    ## home social
- *    ## home animations
- *  # about
- *    ## about process
+ *  # anasayfa
+ *    ## anasayfa content
+ *    ## anasayfa video link
+ *    ## anasayfa buttons
+ *    ## anasayfa scroll
+ *    ## anasayfa social
+ *    ## anasayfa animations
+ *  # hakkinda
+ *    ## hakkinda process
  *  # services  
  *    ## services list
  *  # works
  *    ## bricks/masonry
  *  # clients
- *  # testimonials
- *  # contact
- *    ## contact social
+ *  # referanslar
+ *  # iletisim
+ *    ## iletisim social
  *  # footer
  *    ## copyright
  *    ## go top
@@ -2051,10 +2051,10 @@ body.menu-is-open {
 
 
 /* ===================================================================
- * # home
+ * # anasayfa
  *
  * ------------------------------------------------------------------- */
-.s-home {
+.s-anasayfa {
   width: 100%;
   height: 100vh;
   min-height: 786px;
@@ -2063,7 +2063,7 @@ body.menu-is-open {
   display: table;
 }
 
-.s-home::before {
+.s-anasayfa::before {
   display: block;
   content: "";
   position: absolute;
@@ -2076,7 +2076,7 @@ body.menu-is-open {
   z-index: 2;
 }
 
-.s-home::after {
+.s-anasayfa::after {
   display: block;
   content: "";
   width: 50%;
@@ -2091,18 +2091,18 @@ body.menu-is-open {
   right: 0;
 }
 
-.s-home .grid-overlay > div {
+.s-anasayfa .grid-overlay > div {
   display: none;
 }
 
-.no-js .s-home {
+.no-js .s-anasayfa {
   background: #000000;
 }
 
 /* ------------------------------------------------------------------- 
- * ## home content
+ * ## anasayfa content
  * ------------------------------------------------------------------- */
-.home-content {
+.anasayfa-content {
   display: table-cell;
   vertical-align: middle;
   padding-top: 6.6rem;
@@ -2112,7 +2112,7 @@ body.menu-is-open {
   z-index: 4;
 }
 
-.home-content h1 {
+.anasayfa-content h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 18rem;
@@ -2123,7 +2123,7 @@ body.menu-is-open {
   margin-bottom: 0;
 }
 
-.home-content h3 {
+.anasayfa-content h3 {
   margin-top: 1.2rem;
   font-family: "Nunito Sans", sans-serif;
   font-weight: 300;
@@ -2133,20 +2133,20 @@ body.menu-is-open {
   color: #9c9c9c;
 }
 
-.home-content__main {
+.anasayfa-content__main {
   position: relative;
   text-align: center;
 }
 
 /* ------------------------------------------------------------------- 
- * ## home video link
+ * ## anasayfa video link
  * ------------------------------------------------------------------- */
-.home-content__video {
+.anasayfa-content__video {
   display: inline-block;
   margin-top: 4.2rem;
 }
 
-.home-content__video .video-link {
+.anasayfa-content__video .video-link {
   display: block;
   text-align: center;
   width: 20rem;
@@ -2154,7 +2154,7 @@ body.menu-is-open {
   position: relative;
 }
 
-.home-content__video .video-icon {
+.anasayfa-content__video .video-icon {
   display: inline-block;
   height: 9rem;
   width: 9rem;
@@ -2168,7 +2168,7 @@ body.menu-is-open {
   transition: background-color 0.3s ease-in-out;
 }
 
-.home-content__video .video-text {
+.anasayfa-content__video .video-text {
   display: inline-block;
   text-align: center;
   font-family: "Nunito Sans", sans-serif;
@@ -2183,23 +2183,23 @@ body.menu-is-open {
   position: relative;
 }
 
-.home-content__video .video-link:hover .video-text {
+.anasayfa-content__video .video-link:hover .video-text {
   color: white;
 }
 
-.home-content__video .video-link:hover .video-icon {
+.anasayfa-content__video .video-link:hover .video-icon {
   background-color: #6b3792;
 }
 
 /* ------------------------------------------------------------------- 
- * ## home buttons
+ * ## anasayfa buttons
  * ------------------------------------------------------------------- */
-.home-content__button {
+.anasayfa-content__button {
   margin-top: 7.8rem;
   position: relative;
 }
 
-.home-content__button .btn {
+.anasayfa-content__button .btn {
   width: 30rem;
   height: 7.2rem !important;
   line-height: 6.8rem !important;
@@ -2207,32 +2207,32 @@ body.menu-is-open {
   position: absolute;
 }
 
-.home-content__button .btn:first-child {
+.anasayfa-content__button .btn:first-child {
   right: 50%;
   left: auto;
 }
 
-.home-content__button .btn:last-child {
+.anasayfa-content__button .btn:last-child {
   left: 50%;
   right: auto;
 }
 
-.home-content__button .btn:not(.btn--primary) {
+.anasayfa-content__button .btn:not(.btn--primary) {
   background-color: #13161b;
   border-color: #13161b;
   color: #FFFFFF;
 }
 
-.home-content__button .btn:not(.btn--primary):hover,
-.home-content__button .btn:not(.btn--primary):focus {
+.anasayfa-content__button .btn:not(.btn--primary):hover,
+.anasayfa-content__button .btn:not(.btn--primary):focus {
   background-color: #080a0c;
   border-color: #080a0c;
 }
 
 /* ------------------------------------------------------------------- 
- * ## home scroll
+ * ## anasayfa scroll
  * ------------------------------------------------------------------- */
-.home-content__scroll {
+.anasayfa-content__scroll {
   position: absolute;
   right: 9.5rem;
   bottom: 5.4rem;
@@ -2244,7 +2244,7 @@ body.menu-is-open {
   transform-origin: right bottom;
 }
 
-.home-content__scroll .scroll-link {
+.anasayfa-content__scroll .scroll-link {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 600;
   font-size: 1.2rem;
@@ -2256,12 +2256,12 @@ body.menu-is-open {
   padding-right: 180px;
 }
 
-.home-content__scroll .scroll-link:hover,
-.home-content__scroll .scroll-link:focus {
+.anasayfa-content__scroll .scroll-link:hover,
+.anasayfa-content__scroll .scroll-link:focus {
   color: #793ea5;
 }
 
-.home-content__scroll::after {
+.anasayfa-content__scroll::after {
   content: "";
   display: block;
   background-color: rgba(255, 255, 255, 0.08);
@@ -2273,9 +2273,9 @@ body.menu-is-open {
 }
 
 /* ------------------------------------------------------------------- 
- * ## home social
+ * ## anasayfa social
  * ------------------------------------------------------------------- */
-.home-social {
+.anasayfa-social {
   list-style: none;
   font-family: "Nunito Sans", sans-serif;
   margin: 0;
@@ -2285,32 +2285,32 @@ body.menu-is-open {
   z-index: 5;
 }
 
-.home-social a {
+.anasayfa-social a {
   color: white;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 
-.home-social li {
+.anasayfa-social li {
   position: relative;
   padding: .6rem 0;
 }
 
-.home-social li a {
+.anasayfa-social li a {
   display: block;
   width: 30px;
   height: 30px;
   line-height: 30px;
 }
 
-.home-social i,
-.home-social span {
+.anasayfa-social i,
+.anasayfa-social span {
   position: absolute;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 
-.home-social i {
+.anasayfa-social i {
   display: inline-block;
   font-size: 15px;
   text-align: center;
@@ -2322,7 +2322,7 @@ body.menu-is-open {
   left: 0;
 }
 
-.home-social span {
+.anasayfa-social span {
   background-color: #000000;
   color: #FFFFFF;
   font-size: 1.2rem;
@@ -2342,7 +2342,7 @@ body.menu-is-open {
   transform-origin: 0% 50%;
 }
 
-.home-social span::after {
+.anasayfa-social span::after {
   display: block;
   content: "";
   width: 0;
@@ -2356,7 +2356,7 @@ body.menu-is-open {
   margin-top: -6px;
 }
 
-.home-social li:hover span {
+.anasayfa-social li:hover span {
   opacity: 1;
   visibility: visible;
   -webkit-transform: scale(1);
@@ -2364,24 +2364,24 @@ body.menu-is-open {
   transform: scale(1);
 }
 
-/* animate .home-content__main
+/* animate .anasayfa-content__main
  * ------------------------------------------------------------------- */
-html.ss-preload .home-content__main {
+html.ss-preload .anasayfa-content__main {
   opacity: 0;
 }
 
-html.ss-loaded .home-content__main {
+html.ss-loaded .anasayfa-content__main {
   animation-duration: 2s;
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
 }
 
-html.no-csstransitions .home-content__main {
+html.no-csstransitions .anasayfa-content__main {
   opacity: 1;
 }
 
 /* ------------------------------------------------------------------- 
- * ## home animations
+ * ## anasayfa animations
  * ------------------------------------------------------------------- */
 
 /* fade in */
@@ -2450,29 +2450,29 @@ html.no-csstransitions .home-content__main {
 
 /* ------------------------------------------------------------------- 
  * responsive:
- * home
+ * anasayfa
  * ------------------------------------------------------------------- */
 @media only screen and (max-width:1600px) {
-  .home-content h1 {
+  .anasayfa-content h1 {
     font-size: 17rem;
   }
 
-  .home-content h3 {
+  .anasayfa-content h3 {
     font-size: 3.7rem;
   }
 
 }
 
 @media only screen and (max-width:1400px) {
-  .home-content h1 {
+  .anasayfa-content h1 {
     font-size: 16rem;
   }
 
-  .home-content h3 {
+  .anasayfa-content h3 {
     font-size: 3.6rem;
   }
 
-  .home-content__video .video-icon {
+  .anasayfa-content__video .video-icon {
     height: 8.4rem;
     width: 8.4rem;
     background-size: 22px 24px;
@@ -2481,30 +2481,30 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width:1200px) {
-  .home-content {
+  .anasayfa-content {
     padding-top: 4.5rem;
   }
 
-  .home-content h1 {
+  .anasayfa-content h1 {
     font-size: 14rem;
   }
 
-  .home-content h3 {
+  .anasayfa-content h3 {
     font-size: 3.2rem;
   }
 
-  .home-content__video {
+  .anasayfa-content__video {
     height: 6.6rem;
     line-height: 6.6rem;
     vertical-align: middle;
   }
 
-  .home-content__video .video-link {
+  .anasayfa-content__video .video-link {
     padding-left: 9rem;
     width: auto;
   }
 
-  .home-content__video .video-icon {
+  .anasayfa-content__video .video-icon {
     height: 6.6rem;
     width: 6.6rem;
     background-size: 12px 13px;
@@ -2513,153 +2513,153 @@ html.no-csstransitions .home-content__main {
     left: 0;
   }
 
-  .home-content__button {
+  .anasayfa-content__button {
     margin-top: 7.2rem;
   }
 
-  .home-content__button .btn {
+  .anasayfa-content__button .btn {
     font-size: 11px;
     width: 28rem;
     height: 6.6rem !important;
     line-height: 6.2rem !important;
   }
 
-  .home-content__scroll {
+  .anasayfa-content__scroll {
     right: 7rem;
   }
 
-  .home-content__scroll .scroll-link {
+  .anasayfa-content__scroll .scroll-link {
     font-size: 1.1rem;
   }
 
-  .home-social {
+  .anasayfa-social {
     left: 5.5rem;
   }
 
 }
 
 @media only screen and (max-width:1000px) {
-  .home-content h1 {
+  .anasayfa-content h1 {
     font-size: 13rem;
   }
 
-  .home-content h3 {
+  .anasayfa-content h3 {
     font-size: 3rem;
   }
 
-  .home-content__button .btn {
+  .anasayfa-content__button .btn {
     width: 24rem;
   }
 
-  .home-content__scroll {
+  .anasayfa-content__scroll {
     right: 6rem;
   }
 
-  .home-social {
+  .anasayfa-social {
     left: 4.5rem;
   }
 
 }
 
 @media only screen and (max-width:900px) {
-  .home-content h1 {
+  .anasayfa-content h1 {
     font-size: 12rem;
   }
 
-  .home-content h3 {
+  .anasayfa-content h3 {
     font-size: 2.7rem;
   }
 
-  .home-social {
+  .anasayfa-social {
     display: none;
   }
 
 }
 
 @media only screen and (max-width:800px) {
-  .home-content h1 {
+  .anasayfa-content h1 {
     font-size: 11.4rem;
   }
 
-  .home-content h3 {
+  .anasayfa-content h3 {
     font-size: 2.6rem;
   }
 
-  .home-content__video {
+  .anasayfa-content__video {
     margin-top: 3.6rem;
   }
 
-  .home-content__video .video-link {
+  .anasayfa-content__video .video-link {
     padding-left: 8rem;
   }
 
-  .home-content__video .video-icon {
+  .anasayfa-content__video .video-icon {
     height: 6rem;
     width: 6rem;
   }
 
-  .home-content__video .video-text {
+  .anasayfa-content__video .video-text {
     top: -6px;
     font-size: 1.2rem;
     line-height: 6rem;
   }
 
-  .home-content__button {
+  .anasayfa-content__button {
     margin-top: 6.6rem;
   }
 
-  .home-content__button .btn {
+  .anasayfa-content__button .btn {
     width: 22rem;
   }
 
 }
 
 @media only screen and (max-width:700px) {
-  .home-content h1 {
+  .anasayfa-content h1 {
     font-size: 10.2rem;
   }
 
-  .home-content h3 {
+  .anasayfa-content h3 {
     font-size: 2.4rem;
   }
 
-  .home-content__scroll {
+  .anasayfa-content__scroll {
     right: 5rem;
     bottom: 4.8rem;
   }
 
-  .home-content__scroll::after {
+  .anasayfa-content__scroll::after {
     display: none;
   }
 
 }
 
 @media only screen and (max-width:600px) {
-  .home-content {
+  .anasayfa-content {
     padding-top: 6rem;
   }
 
-  .home-content h1 {
+  .anasayfa-content h1 {
     font-size: 9rem;
   }
 
-  .home-content h3 {
+  .anasayfa-content h3 {
     font-size: 2.1rem;
   }
 
-  .home-content__main {
+  .anasayfa-content__main {
     padding: 0 35px;
   }
 
-  .home-content__video {
+  .anasayfa-content__video {
     margin-top: 3rem;
   }
 
-  .home-content__button {
+  .anasayfa-content__button {
     margin-top: 4.8rem;
   }
 
-  .home-content__button .btn {
+  .anasayfa-content__button .btn {
     position: static;
     display: block;
     height: 6rem !important;
@@ -2673,51 +2673,51 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width:500px) {
-  .home-content h1 {
+  .anasayfa-content h1 {
     font-size: 7.5rem;
   }
 
-  .home-content h3 {
+  .anasayfa-content h3 {
     font-size: 1.8rem;
   }
 
 }
 
 @media only screen and (max-width:400px) {
-  .s-home {
+  .s-anasayfa {
     min-height: 630px;
   }
 
-  .home-content h1 {
+  .anasayfa-content h1 {
     font-size: 6.5rem;
   }
 
-  .home-content__main {
+  .anasayfa-content__main {
     padding: 0 25px;
   }
 
-  .home-content__video .video-link {
+  .anasayfa-content__video .video-link {
     padding-left: 7.5rem;
   }
 
-  .home-content__video .video-icon {
+  .anasayfa-content__video .video-icon {
     height: 5.4rem;
     width: 5.4rem;
   }
 
-  .home-content__video .video-text {
+  .anasayfa-content__video .video-text {
     line-height: 5.4rem;
     font-size: 1.1rem;
   }
 
-  .home-content__button {
+  .anasayfa-content__button {
     margin-top: 3.6rem;
   }
 
 }
 
 @media only screen and (max-width:350px) {
-  .home-content h1 {
+  .anasayfa-content h1 {
     font-size: 6.2rem;
   }
 
@@ -2725,10 +2725,10 @@ html.no-csstransitions .home-content__main {
 
 
 /* ===================================================================
- * # about
+ * # hakkinda
  *
  * ------------------------------------------------------------------- */
-.s-about {
+.s-hakkinda {
   padding-top: 18rem;
   padding-bottom: 18rem;
   background-color: #121212;
@@ -2736,7 +2736,7 @@ html.no-csstransitions .home-content__main {
 }
 
 /* ------------------------------------------------------------------- 
- * ## about process
+ * ## hakkinda process
  * ------------------------------------------------------------------- */
 .process {
   margin-top: 6.6rem;
@@ -2784,7 +2784,7 @@ html.no-csstransitions .home-content__main {
 
 /* ------------------------------------------------------------------- 
  * responsive:
- * about
+ * hakkinda
  * ------------------------------------------------------------------- */
 @media only screen and (max-width:1000px) {
   .item-process:nth-child(2n+1) {
@@ -2798,7 +2798,7 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width:1000px) {
-  .s-about {
+  .s-hakkinda {
     padding-top: 15rem;
     padding-bottom: 15rem;
   }
@@ -2811,7 +2811,7 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width:600px) {
-  .s-about {
+  .s-hakkinda {
     padding-top: 12rem;
     padding-bottom: 12rem;
   }
@@ -3386,10 +3386,10 @@ html.no-csstransitions .home-content__main {
 
 
 /* ===================================================================
- * # testimonials
+ * # referanslar
  *
  * ------------------------------------------------------------------- */
-.s-testimonials {
+.s-referanslar {
   padding-top: 16.2rem;
   padding-bottom: 21rem;
   text-align: center;
@@ -3400,7 +3400,7 @@ html.no-csstransitions .home-content__main {
   background-size: cover;
 }
 
-.s-testimonials::before {
+.s-referanslar::before {
   display: block;
   content: "";
   position: absolute;
@@ -3412,7 +3412,7 @@ html.no-csstransitions .home-content__main {
   background-color: #111111;
 }
 
-.testimonials__icon {
+.referanslar__icon {
   height: 4.5rem;
   width: 4.5rem;
   background-color: transparent;
@@ -3426,7 +3426,7 @@ html.no-csstransitions .home-content__main {
   margin-left: -2.25rem;
 }
 
-.testimonials__slider {
+.referanslar__slider {
   font-size: 3.6rem;
   font-weight: 400;
   line-height: 1.636;
@@ -3435,11 +3435,11 @@ html.no-csstransitions .home-content__main {
   position: relative;
 }
 
-.testimonials__slider .slick-slide {
+.referanslar__slider .slick-slide {
   outline: none;
 }
 
-.testimonials__slider .slick-dots {
+.referanslar__slider .slick-dots {
   display: block;
   list-style: none;
   width: 100%;
@@ -3451,7 +3451,7 @@ html.no-csstransitions .home-content__main {
   left: 0;
 }
 
-.testimonials__slider .slick-dots li {
+.referanslar__slider .slick-dots li {
   display: inline-block;
   width: 27px;
   height: 27px;
@@ -3460,7 +3460,7 @@ html.no-csstransitions .home-content__main {
   cursor: pointer;
 }
 
-.testimonials__slider .slick-dots li button {
+.referanslar__slider .slick-dots li button {
   display: block;
   width: 10px;
   height: 10px;
@@ -3476,18 +3476,18 @@ html.no-csstransitions .home-content__main {
   color: transparent;
 }
 
-.testimonials__slider .slick-dots li button:hover,
-.testimonials__slider .slick-dots li button:focus {
+.referanslar__slider .slick-dots li button:hover,
+.referanslar__slider .slick-dots li button:focus {
   outline: none;
 }
 
-.testimonials__slider .slick-dots li.slick-active button,
-.testimonials__slider .slick-dots li:hover button {
+.referanslar__slider .slick-dots li.slick-active button,
+.referanslar__slider .slick-dots li:hover button {
   background: transparent;
   box-shadow: 0 0 0 2px #FFFFFF;
 }
 
-.testimonials__author {
+.referanslar__author {
   margin-top: 0;
   font-family: "Nunito Sans", sans-serif;
   font-size: 1.5rem;
@@ -3498,7 +3498,7 @@ html.no-csstransitions .home-content__main {
   color: #793ea5;
 }
 
-.testimonials__author span {
+.referanslar__author span {
   display: block;
   font-family: "Nunito Sans", sans-serif;
   font-weight: 400;
@@ -3511,17 +3511,17 @@ html.no-csstransitions .home-content__main {
 
 /* ------------------------------------------------------------------- 
  * responsive:
- * testimonials
+ * referanslar
  * ------------------------------------------------------------------- */
 @media only screen and (max-width:1200px) {
-  .testimonials__slider {
+  .referanslar__slider {
     font-size: 3.3rem;
   }
 
 }
 
 @media only screen and (max-width:1000px) {
-  .s-testimonials {
+  .s-referanslar {
     padding-top: 15rem;
     padding-bottom: 19.2rem;
   }
@@ -3529,67 +3529,67 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width:900px) {
-  .testimonials__icon {
+  .referanslar__icon {
     height: 3.9rem;
     width: 3.9rem;
     margin-left: -1.95rem;
   }
 
-  .testimonials__slider {
+  .referanslar__slider {
     font-size: 3rem;
   }
 
 }
 
 @media only screen and (max-width:800px) {
-  .testimonials__icon {
+  .referanslar__icon {
     height: 3.6rem;
     width: 3.6rem;
     margin-left: -1.8rem;
   }
 
-  .testimonials__slider {
+  .referanslar__slider {
     font-size: 2.7rem;
   }
 
 }
 
 @media only screen and (max-width:600px) {
-  .s-testimonials {
+  .s-referanslar {
     padding-top: 7.8rem;
     padding-bottom: 15rem;
   }
 
-  .testimonials__icon {
+  .referanslar__icon {
     height: 3.3rem;
     width: 3.3rem;
     margin-left: -1.65rem;
     top: 9rem;
   }
 
-  .testimonials__slider {
+  .referanslar__slider {
     font-size: 2.5rem;
   }
 
-  .testimonials__author {
+  .referanslar__author {
     font-size: 1.4rem;
   }
 
-  .testimonials__author span {
+  .referanslar__author span {
     font-size: 1.4rem;
   }
 
 }
 
 @media only screen and (max-width:400px) {
-  .testimonials__slider {
+  .referanslar__slider {
     font-size: 2.1rem;
   }
 
 }
 
 @media only screen and (max-width:350px) {
-  .testimonials__slider {
+  .referanslar__slider {
     font-size: 1.9rem;
   }
 
@@ -3597,10 +3597,10 @@ html.no-csstransitions .home-content__main {
 
 
 /* ===================================================================
- * # contact
+ * # iletisim
  *
  * ------------------------------------------------------------------- */
-.s-contact {
+.s-iletisim {
   padding-top: 16.2rem;
   padding-bottom: 21rem;
   background-color: #5e3080;
@@ -3609,47 +3609,47 @@ html.no-csstransitions .home-content__main {
   position: relative;
 }
 
-.s-contact a {
+.s-iletisim a {
   color: #FFFFFF;
 }
 
-.s-contact .grid-overlay {
+.s-iletisim .grid-overlay {
   border-right: 1px solid rgba(255, 255, 255, 0.12);
   border-left: 1px solid rgba(255, 255, 255, 0.12);
   z-index: 2;
 }
 
-.s-contact .grid-overlay > div,
-.s-contact .grid-overlay::before,
-.s-contact .grid-overlay::after {
+.s-iletisim .grid-overlay > div,
+.s-iletisim .grid-overlay::before,
+.s-iletisim .grid-overlay::after {
   background-color: rgba(255, 255, 255, 0.12);
 }
 
-.s-contact .subhead {
+.s-iletisim .subhead {
   color: #2a1538;
 }
 
-.s-contact .section-header,
-.s-contact .contact-main {
+.s-iletisim .section-header,
+.s-iletisim .iletisim-main {
   z-index: 3;
   position: relative;
 }
 
-.contact-main {
+.iletisim-main {
   font-size: 3.3rem;
   line-height: 1.636;
   margin-top: 9rem;
 }
 
-.contact-main [class*="contact-"] {
+.iletisim-main [class*="iletisim-"] {
   margin-bottom: 0;
 }
 
-.contact-main .contact-email {
+.iletisim-main .iletisim-email {
   margin-bottom: 3.6rem;
 }
 
-.contact-email a {
+.iletisim-email a {
   font-size: 9rem;
   font-weight: 700;
   line-height: 1.2;
@@ -3657,156 +3657,156 @@ html.no-csstransitions .home-content__main {
   border-bottom: 3px solid rgba(0, 0, 0, 0.2);
 }
 
-.contact-email a:hover,
-.contact-email a:focus {
+.iletisim-email a:hover,
+.iletisim-email a:focus {
   border-bottom: 3px solid rgba(255, 255, 255, 0.2);
 }
 
 /* ------------------------------------------------------------------- 
- * ## contact social
+ * ## iletisim social
  * ------------------------------------------------------------------- */
-.contact-social {
+.iletisim-social {
   list-style: none;
   display: inline-block;
   margin: 4.2rem 0 0 0;
   font-size: 4.2rem;
 }
 
-.contact-social li {
+.iletisim-social li {
   margin-right: 15px;
   padding-left: 0;
   display: inline-block;
 }
 
-.contact-social li a {
+.iletisim-social li a {
   color: white;
   border: none !important;
 }
 
-.contact-social li a:hover,
-.contact-social li a:focus {
+.iletisim-social li a:hover,
+.iletisim-social li a:focus {
   color: #FFFFFF;
 }
 
-.contact-social li:last-child {
+.iletisim-social li:last-child {
   margin: 0;
 }
 
 /* ------------------------------------------------------------------- 
  * responsive:
- * contact
+ * iletisim
  * ------------------------------------------------------------------- */
 @media only screen and (max-width:1200px) {
-  .contact-main {
+  .iletisim-main {
     font-size: 3.1rem;
   }
 
-  .contact-email a {
+  .iletisim-email a {
     font-size: 7.6rem;
   }
 
 }
 
 @media only screen and (max-width:1000px) {
-  .s-contact {
+  .s-iletisim {
     padding-top: 15rem;
     padding-bottom: 19.8rem;
   }
 
-  .contact-main {
+  .iletisim-main {
     font-size: 3rem;
   }
 
-  .contact-email a {
+  .iletisim-email a {
     font-size: 7.2rem;
   }
 
 }
 
 @media only screen and (max-width:900px) {
-  .contact-main {
+  .iletisim-main {
     font-size: 2.8rem;
   }
 
-  .contact-email a {
+  .iletisim-email a {
     font-size: 6.2rem;
   }
 
-  .contact-social {
+  .iletisim-social {
     font-size: 4rem;
   }
 
 }
 
 @media only screen and (max-width:800px) {
-  .contact-main {
+  .iletisim-main {
     font-size: 2.6rem;
   }
 
-  .contact-email a {
+  .iletisim-email a {
     font-size: 5.5rem;
   }
 
-  .contact-social {
+  .iletisim-social {
     font-size: 3.5rem;
   }
 
 }
 
 @media only screen and (max-width:700px) {
-  .contact-main {
+  .iletisim-main {
     font-size: 2.4rem;
   }
 
-  .contact-email a {
+  .iletisim-email a {
     font-size: 3.8rem;
   }
 
-  .contact-social {
+  .iletisim-social {
     font-size: 3.2rem;
   }
 
 }
 
 @media only screen and (max-width:600px) {
-  .s-contact {
+  .s-iletisim {
     padding-top: 12rem;
     padding-bottom: 13.2rem;
   }
 
-  .contact-main {
+  .iletisim-main {
     font-size: 2.1rem;
     margin-top: 7.2rem;
   }
 
-  .contact-social {
+  .iletisim-social {
     font-size: 3rem;
   }
 
 }
 
 @media only screen and (max-width:500px) {
-  .contact-main {
+  .iletisim-main {
     font-size: 1.8rem;
   }
 
-  .contact-email a {
+  .iletisim-email a {
     font-size: 3rem;
   }
 
 }
 
 @media only screen and (max-width:400px) {
-  .contact-main {
+  .iletisim-main {
     font-size: 1.6rem;
     margin-top: 4.5rem;
   }
 
-  .contact-email a {
+  .iletisim-email a {
     font-size: 2.5rem;
   }
 
-  .contact-social {
+  .iletisim-social {
     margin: 3rem 0 0 0;
     font-size: 2.4rem;
   }

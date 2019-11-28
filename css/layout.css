@@ -8,12 +8,12 @@
    TOC:
    a. General Styles
    b. Header Styles
-   c. About Section
-   d. Resume Section
-   e. Portfolio Section
+   c. hakkinda Section
+   d. yaptiklarimiz Section
+   e. calismalar Section
    f. Call To Action Section
-   g. Testimonials Section
-   h. Contact Section
+   g. referanslar Section
+   h. iletisim Section
    i. Footer
 
 ===================================================================== */
@@ -184,99 +184,99 @@ ul#nav li.current a { color: #F06000; }
 
 
 /* ------------------------------------------------------------------ */
-/* c. About Section
+/* c. hakkinda Section
 /* ------------------------------------------------------------------ */
 
-#about {
+#hakkinda {
    background: #2B2B2B;
    padding-top: 96px;
    padding-bottom: 140px;
    overflow: hidden;
 }
 
-#about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #11ABB0; }
+#hakkinda a, #hakkinda a:visited  { color: #fff; }
+#hakkinda a:hover, #hakkinda a:focus { color: #11ABB0; }
 
-#about h2 {
+#hakkinda h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
    color: #fff;
    margin-bottom: 12px;
 }
-#about p {
+#hakkinda p {
    line-height: 30px;
    color: #7A7A7A;
 }
-#about .profile-pic {
+#hakkinda .profile-pic {
    position: relative;
    width: 120px;
    height: 120px;
    border-radius: 100%;
 }
-#about .contact-details { width: 41.66667%; }
-#about .download {
+#hakkinda .iletisim-details { width: 41.66667%; }
+#hakkinda .download {
    width: 58.33333%;
    padding-top: 6px;
 }
-#about .main-col { padding-right: 5%; }
-#about .download .button {
+#hakkinda .main-col { padding-right: 5%; }
+#hakkinda .download .button {
    margin-top: 6px;
    background: #444;
 }
-#about .download .button:hover {
+#hakkinda .download .button:hover {
    background: #fff;
    color: #2B2B2B;
 }
-#about .download .button i {
+#hakkinda .download .button i {
    margin-right: 15px;
    font-size: 20px;
 }
 
 
 /* ------------------------------------------------------------------ */
-/* d. Resume Section
+/* d. yaptiklarimiz Section
 /* ------------------------------------------------------------------ */
 
-#resume {
+#yaptiklarimiz {
    padding-top: 30px;
    padding-bottom: 50px;
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #11ABB0; }
-#resume a:hover, #resume a:focus { color: #313131; }
+#yaptiklarimiz a, #yaptiklarimiz a:visited  { color: #11ABB0; }
+#yaptiklarimiz a:hover, #yaptiklarimiz a:focus { color: #313131; }
 
-#resume h1 {
+#yaptiklarimiz h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
-#resume h1 span {
+#yaptiklarimiz h1 span {
    border-bottom: 3px solid #11ABB0;
    padding-bottom: 6px;
 }
-#resume h3 {
+#yaptiklarimiz h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
 }
 
-#resume .header-col { padding-top: 9px; }
-#resume .main-col { padding-right: 10%; }
+#yaptiklarimiz .header-col { padding-top: 9px; }
+#yaptiklarimiz .main-col { padding-right: 10%; }
 
 .education, .work {
    margin-bottom: 48px;
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
 }
-#resume .info {
+#yaptiklarimiz .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
 }
-#resume .info span {
+#yaptiklarimiz .info span {
    margin-right: 5px;
    margin-left: 5px;
 }
-#resume .date {
+#yaptiklarimiz .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
@@ -407,15 +407,15 @@ ul#nav li.current a { color: #F06000; }
 }
 
 /* ------------------------------------------------------------------ */
-/* e. Portfolio Section
+/* e. calismalar Section
 /* ------------------------------------------------------------------ */
 
-#portfolio {
+#calismalar {
    background: #ebeeee;
    padding-top: 60px;
    padding-bottom: 60px;
 }
-#portfolio h1 {
+#calismalar h1 {
    font: 15px/24px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
@@ -424,9 +424,9 @@ ul#nav li.current a { color: #F06000; }
    color: #95A3A3;
 }
 
-/* Portfolio Content */
-#portfolio-wrapper .columns { margin-bottom: 36px; }
-.portfolio-item .item-wrap {
+/* calismalar Content */
+#calismalar-wrapper .columns { margin-bottom: 36px; }
+.calismalar-item .item-wrap {
    background: #fff;
    overflow: hidden;
    position: relative;
@@ -437,13 +437,13 @@ ul#nav li.current a { color: #F06000; }
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
-.portfolio-item .item-wrap a {
+.calismalar-item .item-wrap a {
    display: block;
    cursor: pointer;
 }
 
 /* overlay */
-.portfolio-item .item-wrap .overlay {
+.calismalar-item .item-wrap .overlay {
    position: absolute;
    left: 0;
    top: 0;
@@ -461,7 +461,7 @@ ul#nav li.current a { color: #F06000; }
 
    background: url(../images/overlay-bg.png) repeat;
 }
-.portfolio-item .item-wrap .link-icon {
+.calismalar-item .item-wrap .link-icon {
    display: block;
    color: #fff;
    height: 30px;
@@ -485,27 +485,27 @@ ul#nav li.current a { color: #F06000; }
    margin-left: -15px;
    margin-top: -15px;
 }
-.portfolio-item .item-wrap img {
+.calismalar-item .item-wrap img {
    vertical-align: bottom;
 }
-.portfolio-item .portfolio-item-meta { padding: 18px }
-.portfolio-item .portfolio-item-meta h5 {
+.calismalar-item .calismalar-item-meta { padding: 18px }
+.calismalar-item .calismalar-item-meta h5 {
    font: 14px/21px 'opensans-bold', sans-serif;
    color: #fff;
 }
-.portfolio-item .portfolio-item-meta p {
+.calismalar-item .calismalar-item-meta p {
    font: 12px/18px 'opensans-light', sans-serif;
    color: #c6c7c7;
    margin-bottom: 0;
 }
 
 /* on hover */
-.portfolio-item:hover .overlay {
+.calismalar-item:hover .overlay {
 	opacity: 1;
 	-moz-opacity: 1;
 	filter:alpha(opacity=100);
 }
-.portfolio-item:hover .link-icon {
+.calismalar-item:hover .link-icon {
    opacity: 1;
 	-moz-opacity: 1;
 	filter:alpha(opacity=100);
@@ -518,18 +518,18 @@ ul#nav li.current a { color: #F06000; }
 	position: relative;
 	margin: 0 auto;
 }
-.popup-modal .description-box { padding: 12px 36px 18px 36px; }
-.popup-modal .description-box h4 {
+.popup-modal .aciklama { padding: 12px 36px 18px 36px; }
+.popup-modal .aciklama h4 {
    font: 15px/24px 'opensans-bold', sans-serif;
 	margin-bottom: 12px;
    color: #111;
 }
-.popup-modal .description-box p {
+.popup-modal .aciklama p {
 	font: 14px/24px 'opensans-regular', sans-serif;
    color: #A1A1A1;
    margin-bottom: 12px;
 }
-.popup-modal .description-box .categories {
+.popup-modal .aciklama .kategori {
    font: 11px/21px 'opensans-light', sans-serif;
    color: #A1A1A1;
    text-transform: uppercase;
@@ -537,7 +537,7 @@ ul#nav li.current a { color: #F06000; }
    display: block;
    text-align: left;
 }
-.popup-modal .description-box .categories i {
+.popup-modal .aciklama .kategori i {
    margin-right: 8px;
 }
 .popup-modal .link-box {
@@ -635,11 +635,11 @@ call-to-action .button {
 }
 
 /* ------------------------------------------------------------------
-/* g. Testimonials
+/* g. referanslar
 /* ------------------------------------------------------------------ */
 
-#testimonials {
-   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
+#referanslar {
+   background: #1F1F1F url(../images/referanslar-bg.jpg) no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
@@ -649,19 +649,19 @@ call-to-action .button {
    width: 100%;
    overflow: hidden;
 }
-#testimonials .text-container {
+#referanslar .text-container {
    padding-top: 96px;
    padding-bottom: 66px;
 }
-#testimonials h1 {
+#referanslar h1 {
    font: 18px/24px 'opensans-bold', sans-serif;   
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #fff;
 }
-#testimonials h1 span { display: none; }
-#testimonials .header-col { padding-top: 9px; }
-#testimonials .header-col h1:before {
+#referanslar h1 span { display: none; }
+#referanslar .header-col { padding-top: 9px; }
+#referanslar .header-col h1:before {
    font-family: 'FontAwesome';
    content: "\f10d";
 	padding-right: 10px;
@@ -673,30 +673,30 @@ call-to-action .button {
 }
 
 /*	Blockquotes */
-#testimonials blockquote {
+#referanslar blockquote {
    margin: 0 0px 30px 0px;
    padding-left: 0;
    position: relative;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
 }
-#testimonials blockquote:before { content: none; }
-#testimonials blockquote p {
+#referanslar blockquote:before { content: none; }
+#referanslar blockquote p {
    font-family: 'librebaskerville-italic', serif;
    padding: 0;
    font-size: 24px;
    line-height: 48px;
    color: #fff
 }
-#testimonials blockquote cite {
+#referanslar blockquote cite {
    display: block;
    font-size: 12px;
    font-style: normal;
    line-height: 18px;
    color: #fff;
 }
-#testimonials blockquote cite:before { content: "\2014 \0020"; }
-#testimonials blockquote cite a,
-#testimonials blockquote cite a:visited { color: #8B9798; border: none }
+#referanslar blockquote cite:before { content: "\2014 \0020"; }
+#referanslar blockquote cite a,
+#referanslar blockquote cite a:visited { color: #8B9798; border: none }
 
 /* Flex Slider
 /* ------------------------------------------------------------------ */
@@ -784,29 +784,29 @@ call-to-action .button {
 }
 
 /* ------------------------------------------------------------------ */
-/* h. Contact Section
+/* h. iletisim Section
 /* ------------------------------------------------------------------ */
 
-#contact {
+#iletisim {
    background: #191919;
    padding-top: 96px;
    padding-bottom: 102px;
    color: #636363;
 }
-#contact .section-head { margin-bottom: 42px; }
+#iletisim .section-head { margin-bottom: 42px; }
 
-#contact a, #contact a:visited  { color: #11ABB0; }
-#contact a:hover, #contact a:focus { color: #fff; }
+#iletisim a, #iletisim a:visited  { color: #11ABB0; }
+#iletisim a:hover, #iletisim a:focus { color: #fff; }
 
-#contact h1 {
+#iletisim h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #EBEEEE;
    margin-bottom: 6px;
 }
-#contact h1 span { display: none; }
-#contact h1:before {
+#iletisim h1 span { display: none; }
+#iletisim h1:before {
    font-family: 'FontAwesome';
    content: "\f0e0";
 	padding-right: 10px;
@@ -817,21 +817,21 @@ call-to-action .button {
    color: #ebeeee;
 }
 
-#contact h4 {
+#iletisim h4 {
    font: 16px/24px 'opensans-bold', sans-serif;
    color: #EBEEEE;
    margin-bottom: 6px;
 }
-#contact p.lead {
+#iletisim p.lead {
    font: 18px/36px 'opensans-light', sans-serif;
    padding-right: 3%;
 }
-#contact .header-col { padding-top: 6px; }
+#iletisim .header-col { padding-top: 6px; }
 
 
-/* contact form */
-#contact form { margin-bottom: 30px; }
-#contact label {
+/* iletisim form */
+#iletisim form { margin-bottom: 30px; }
+#iletisim label {
    font: 15px/24px 'opensans-bold', sans-serif;
    margin: 12px 0;
    color: #EBEEEE;
@@ -839,9 +839,9 @@ call-to-action .button {
 	float: left;
    width: 26%;
 }
-#contact input,
-#contact textarea,
-#contact select {
+#iletisim input,
+#iletisim textarea,
+#iletisim select {
    padding: 18px 20px;
 	color: #eee;
 	background: #373233;
@@ -852,13 +852,13 @@ call-to-action .button {
    line-height: 24px;
    width: 65%;
 }
-#contact input:focus,
-#contact textarea:focus,
-#contact select:focus {
+#iletisim input:focus,
+#iletisim textarea:focus,
+#iletisim select:focus {
 	color: #fff;
 	background-color: #11ABB0;
 }
-#contact button.submit {
+#iletisim button.submit {
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color:#fff;
@@ -870,11 +870,11 @@ call-to-action .button {
 	border-radius: 3px;
    margin-left: 26%;
 }
-#contact button.submit:hover {
+#iletisim button.submit:hover {
 	color: #0D0D0D;
 	background: #fff;
 }
-#contact span.required {
+#iletisim span.required {
 	color: #11ABB0;
 	font-size: 13px;
 }
