@@ -57,10 +57,10 @@
    #hakkinda .iletisim-details { width: 50%; }
    #hakkinda .download { width: 50%; }
 
-   /* yaptiklarimiz Section
+   /* hizmetler Section
    ------------------------------------------------------------------- */
-   #yaptiklarimiz h1 { font: 16px/24px 'opensans-bold', sans-serif; }
-   #yaptiklarimiz .main-col { padding-right: 5%; }   
+   #hizmetler h1 { font: 16px/24px 'opensans-bold', sans-serif; }
+   #hizmetler .main-col { padding-right: 5%; }   
 
    /* referanslar Section
    ------------------------------------------------------------------- */
@@ -224,16 +224,16 @@
    #hakkinda .main-col { padding-right: 30px; }
 
 
-   /* yaptiklarimiz Section
+   /* hizmetler Section
    --------------------------------------------------------------------- */
-   #yaptiklarimiz .header-col {
+   #hizmetler .header-col {
       padding-top: 0;
       margin-bottom: 48px;
       text-align: center;
    }
-   #yaptiklarimiz h1 { letter-spacing: 3px; }
-   #yaptiklarimiz .main-col { padding-right: 30px; }
-   #yaptiklarimiz h3, #yaptiklarimiz .info { text-align: center; }
+   #hizmetler h1 { letter-spacing: 3px; }
+   #hizmetler .main-col { padding-right: 30px; }
+   #hizmetler h3, #hizmetler .info { text-align: center; }
       
    .bars { width: 100%; }
 

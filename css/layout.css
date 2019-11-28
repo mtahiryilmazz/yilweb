@@ -9,7 +9,7 @@
    a. General Styles
    b. Header Styles
    c. hakkinda Section
-   d. yaptiklarimiz Section
+   d. hizmetler Section
    e. calismalar Section
    f. Call To Action Section
    g. referanslar Section
@@ -233,50 +233,50 @@ ul#nav li.current a { color: #F06000; }
 
 
 /* ------------------------------------------------------------------ */
-/* d. yaptiklarimiz Section
+/* d. hizmetler Section
 /* ------------------------------------------------------------------ */
 
-#yaptiklarimiz {
+#hizmetler {
    padding-top: 30px;
    padding-bottom: 50px;
    overflow: hidden;
 }
 
-#yaptiklarimiz a, #yaptiklarimiz a:visited  { color: #11ABB0; }
-#yaptiklarimiz a:hover, #yaptiklarimiz a:focus { color: #313131; }
+#hizmetler a, #hizmetler a:visited  { color: #11ABB0; }
+#hizmetler a:hover, #hizmetler a:focus { color: #313131; }
 
-#yaptiklarimiz h1 {
+#hizmetler h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
-#yaptiklarimiz h1 span {
+#hizmetler h1 span {
    border-bottom: 3px solid #11ABB0;
    padding-bottom: 6px;
 }
-#yaptiklarimiz h3 {
+#hizmetler h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
 }
 
-#yaptiklarimiz .header-col { padding-top: 9px; }
-#yaptiklarimiz .main-col { padding-right: 10%; }
+#hizmetler .header-col { padding-top: 9px; }
+#hizmetler .main-col { padding-right: 10%; }
 
 .education, .work {
    margin-bottom: 48px;
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
 }
-#yaptiklarimiz .info {
+#hizmetler .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
 }
-#yaptiklarimiz .info span {
+#hizmetler .info span {
    margin-right: 5px;
    margin-left: 5px;
 }
-#yaptiklarimiz .date {
+#hizmetler .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
